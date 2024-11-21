@@ -11,7 +11,7 @@ int main()
     std::cout << "sizeof(double)" << sizeof(number2) << std::endl;
     std::cout << "sizeof(long double)" << sizeof(number3) << std::endl;
 
-    std::cout << std::setprecision(29);                  // control the precision from std::cout (default precision - 6)
+    std::cout << std::setprecision(33);                  // control the precision from std::cout (default precision - 6)
     std::cout << "number1 is :" << number1 << std::endl; // 7 digits (6-9)
     std::cout << "number2 is :" << number2 << std::endl; // 17 digits (15-18)
     std::cout << "number3 is :" << number3 << std::endl; // 20 digits (12: 18-21; 16: 33-36)
