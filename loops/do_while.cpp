@@ -7,7 +7,8 @@ int main()
 
     do
     {
-        std::cout << "Hello, world!" << std::endl;
+        std::cout << i << " Hello, world!" << std::endl;
+        i++;
     } while (i < COUNT);
 
     return 0;
