@@ -40,8 +40,8 @@ public:
     }
 };
 
-int main()
-{
-    Cylinder cylinder1;
-    cout << "volume : " << cylinder1.volume() << endl;
-}
+// int main()
+// {
+//     Cylinder cylinder1;
+//     cout << "volume : " << cylinder1.volume() << endl;
+// }
