@@ -18,11 +18,14 @@ private:
 
 public:
     // Constructors
-    Cylinder()
-    {
-        base_radius = 2.0;
-        height = 2.0;
-    }
+    // Cylinder()
+    // {
+    //     base_radius = 2.0;
+    //     height = 2.0;
+    // }
+
+    // Default constructor
+    Cylinder() = default;
 
     Cylinder(double radius_par, double height_par)
     {
@@ -39,6 +42,6 @@ public:
 
 int main()
 {
-    Cylinder cylinder1(10, 4);
+    Cylinder cylinder1;
     cout << "volume : " << cylinder1.volume() << endl;
 }
