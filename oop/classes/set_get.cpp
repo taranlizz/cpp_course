@@ -51,15 +51,15 @@ public:
     }
 };
 
-int main()
-{
-    Cylinder cylinder(22, 25);
-    cout << "base_radius: " << cylinder.get_base_radius() << endl;
-    cout << "height: " << cylinder.get_height() << endl;
+// int main()
+// {
+//     Cylinder cylinder(22, 25);
+//     cout << "base_radius: " << cylinder.get_base_radius() << endl;
+//     cout << "height: " << cylinder.get_height() << endl;
 
-    cylinder.set_base_radius(2);
-    cout << "base_radius: " << cylinder.get_base_radius() << endl;
+//     cylinder.set_base_radius(2);
+//     cout << "base_radius: " << cylinder.get_base_radius() << endl;
 
-    cylinder.set_height(1);
-    cout << "height: " << cylinder.get_height() << endl;
-}
+//     cylinder.set_height(1);
+//     cout << "height: " << cylinder.get_height() << endl;
+// }
