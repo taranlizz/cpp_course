@@ -18,15 +18,15 @@ struct Point
     double y;
 };
 
-int main()
-{
-    Shark shark1;
-    Cat cat1;
+// int main()
+// {
+//     Shark shark1;
+//     Cat cat1;
 
-    Point point1;
-    point1.x = 25;
-    point1.y = 12;
+//     Point point1;
+//     point1.x = 25;
+//     point1.y = 12;
 
-    // dog1.m_name = "Shark"; // Compiler Error
-    cat1.m_name = "Peach";
-}
+//     // dog1.m_name = "Shark"; // Compiler Error
+//     cat1.m_name = "Peach";
+// }
