@@ -12,11 +12,11 @@ void some_func(Dog dog_param)
 {
 }
 
-int main()
-{
-    Dog my_dog("Mickey", "Corgi", 2);
-    Dog my_dog1("Peach", "Corgi", 2);
-    Dog my_dog2("Shark", "Pit Bull", 2);
-    Dog my_dog3("Budha", "Pit Bul", 1);
-    std::cout << "Done!" << std::endl;
-}
+// int main()
+// {
+//     Dog my_dog("Mickey", "Corgi", 2);
+//     Dog my_dog1("Peach", "Corgi", 2);
+//     Dog my_dog2("Shark", "Pit Bull", 2);
+//     Dog my_dog3("Budha", "Pit Bul", 1);
+//     std::cout << "Done!" << std::endl;
+// }
