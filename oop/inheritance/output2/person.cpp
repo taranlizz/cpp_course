@@ -3,6 +3,11 @@
 
 using namespace std;
 
+Person::Person()
+{
+    cout << "Person default constructor is called..." << endl;
+}
+
 Person::Person(string_view fullname, int age, string_view address)
     : m_full_name(fullname), m_age(age), m_address(address) {};
 

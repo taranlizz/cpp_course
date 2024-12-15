@@ -10,7 +10,7 @@ class Person
     friend std::ostream &operator<<(std::ostream &out, const Person &person);
 
 public:
-    Person() = default;
+    Person();
     Person(string_view fullname, int age, string_view address);
     ~Person();
 
