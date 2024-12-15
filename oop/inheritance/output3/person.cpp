@@ -9,7 +9,10 @@ Person::Person()
 }
 
 Person::Person(string_view fullname, int age, string_view address)
-    : m_full_name(fullname), m_age(age), m_address(address) {};
+    : m_full_name(fullname), m_age(age), m_address(address)
+{
+    cout << "Person custom constructor is called..." << endl;
+};
 
 // Getters
 string Person::get_full_name() const

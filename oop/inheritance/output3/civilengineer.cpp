@@ -5,10 +5,13 @@ using namespace std;
 
 CivilEngineer::CivilEngineer()
 {
-    cout << "CivilEngineer constructor is called..." << endl;
+    cout << "CivilEngineer default constructor is called..." << endl;
 }
 CivilEngineer::CivilEngineer(string_view fullname, int age, string_view address, int contract_count, string_view speciality)
-    : Engineer(fullname, age, address, contract_count), m_speciality(speciality) {};
+    : Engineer(fullname, age, address, contract_count), m_speciality(speciality)
+{
+    cout << "CivilEngineer custom constructor is called..." << endl;
+};
 
 std::ostream &operator<<(std::ostream &out, const CivilEngineer &engineer)
 {
