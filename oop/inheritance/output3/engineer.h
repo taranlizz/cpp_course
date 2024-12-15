@@ -10,19 +10,10 @@ class Engineer : public Person
 
 public:
     Engineer();
+    Engineer(string_view fullname, int age, string_view address, int contract_count);
     ~Engineer();
 
     void build_something() {};
-
-    // Resurrecting members variables
-protected:
-    using Person::get_address;
-    using Person::get_age;
-    using Person::get_full_name;
-
-public:
-    // using Person::m_address Compiler Error
-    using Person::m_full_name;
 
 private:
     int contract_count{0};

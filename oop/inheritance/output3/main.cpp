@@ -10,5 +10,11 @@ using namespace std;
 
 int main()
 {
-    CivilEngineer civil_engineer;
+    Engineer engineer("Lisa Taylor", 25, "123 Main St, Springfield", 5);
+    cout << engineer << endl;
+
+    CivilEngineer civil_engineer("Alex Johnson", 34, "456 Engineering Ave, Metropolis",
+                                 12, "Structural Engineering");
+
+    cout << civil_engineer << endl;
 }

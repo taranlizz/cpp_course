@@ -10,6 +10,7 @@ class CivilEngineer : public Engineer
 
 public:
     CivilEngineer();
+    CivilEngineer(string_view fullname, int age, string_view address, int contract_count, string_view speciality);
     ~CivilEngineer();
 
     void build_road() {};
